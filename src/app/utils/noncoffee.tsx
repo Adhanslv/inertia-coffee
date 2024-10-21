@@ -16,14 +16,4 @@ export const ListMenuNonCoffee = [
 		pricelist: "20.000",
 		imageproduct: vanillanoncofeee,
 	},
-	{
-		title: "Hazelnut",
-		pricelist: "15.000",
-		imageproduct: vanillanoncofeee,
-	},
-	{
-		title: "Salted Caramel",
-		pricelist: "15.000",
-		imageproduct: vanillanoncofeee,
-	},
 ];
