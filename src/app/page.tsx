@@ -124,7 +124,7 @@ export default function Home() {
 												<AlertDialogTrigger asChild>
 													<Button className="bg-[#323232] text-white hover:bg-[#323232]">Detail</Button>
 												</AlertDialogTrigger>
-												<AlertDialogContent className="w-[87%]  bg-[#323232]  rounded-md  border-none">
+												<AlertDialogContent className="w-fit bg-[#323232]  rounded-md  border-none">
 													<AlertDialogHeader>
 														<AlertDialogDescription className="text-white text-justify ">
 															<div className="flex justify-center">
