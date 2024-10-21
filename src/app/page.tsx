@@ -46,7 +46,7 @@ export default function Home() {
 												<AlertDialogTrigger asChild>
 													<Button className="bg-[#323232] text-white hover:bg-[#323232]">Detail</Button>
 												</AlertDialogTrigger>
-												<AlertDialogContent className="w-full  bg-[#323232]  rounded-md  border-none">
+												<AlertDialogContent className="w-[87%]  bg-[#323232]  rounded-md  border-none">
 													<AlertDialogHeader>
 														<AlertDialogDescription className="text-white text-justify ">
 															<div className="flex justify-center">
@@ -85,7 +85,7 @@ export default function Home() {
 												<AlertDialogTrigger asChild>
 													<Button className="bg-[#323232] text-white hover:bg-[#323232]">Detail</Button>
 												</AlertDialogTrigger>
-												<AlertDialogContent className="w-full  bg-[#323232]  rounded-md  border-none">
+												<AlertDialogContent className="w-[87%]  bg-[#323232]  rounded-md  border-none">
 													<AlertDialogHeader>
 														<AlertDialogDescription className="text-white text-justify ">
 															{/* <div className="flex justify-center">
@@ -124,15 +124,11 @@ export default function Home() {
 												<AlertDialogTrigger asChild>
 													<Button className="bg-[#323232] text-white hover:bg-[#323232]">Detail</Button>
 												</AlertDialogTrigger>
-												<AlertDialogContent className="w-full  bg-[#323232]  rounded-md  border-none">
+												<AlertDialogContent className="w-[87%]  bg-[#323232]  rounded-md  border-none">
 													<AlertDialogHeader>
 														<AlertDialogDescription className="text-white text-justify ">
 															<div className="flex justify-center">
-																<Image
-																	src={data.imageproduct}
-																	alt="imageproduct"
-																	className="  aspect-auto h-fit w-3/4 object-center"
-																/>
+																<Image src={data.imageproduct} alt="imageproduct" className="  h-fit w-1/2" />
 															</div>
 														</AlertDialogDescription>
 													</AlertDialogHeader>
