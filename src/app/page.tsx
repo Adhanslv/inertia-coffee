@@ -31,7 +31,7 @@ export default function Home() {
 						Non Coffee
 					</TabsTrigger>
 				</TabsList>
-				<TabsContent value="coffee" className="mt-10    py-2.5">
+				<TabsContent value="coffee" className="mt-10 px-10 py-1.5">
 					<div className="flex items-center justify-center w-full ">
 						<div className=" flex flex-col gap-y-12  ">
 							{ListMenuEspressoBased.map((data, index) => {
@@ -70,7 +70,7 @@ export default function Home() {
 						</div>
 					</div>
 				</TabsContent>
-				<TabsContent value="flavored" className="mt-10 px-5 py-1.5">
+				<TabsContent value="flavored" className="mt-10 px-10 py-1.5">
 					<div className="flex items-center justify-center w-full">
 						<div className=" flex flex-col gap-y-12  ">
 							{ListMenuFlavored.map((data, index) => {
@@ -109,7 +109,7 @@ export default function Home() {
 						</div>
 					</div>
 				</TabsContent>
-				<TabsContent value="non-coffee" className="mt-10 px-5 py-1.5	">
+				<TabsContent value="non-coffee" className="mt-10 px-10 py-1.5	">
 					<div className="flex items-center justify-center w-full ">
 						<div className=" flex flex-col gap-y-12  ">
 							{ListMenuNonCoffee.map((data, index) => {
