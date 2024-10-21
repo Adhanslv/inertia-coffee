@@ -128,7 +128,7 @@ export default function Home() {
 													<AlertDialogHeader>
 														<AlertDialogDescription className="text-white text-justify ">
 															<div className="flex justify-center">
-																<Image src={data.imageproduct} alt="imageproduct" className="  h-fit w-1/2" />
+																<Image src={data.imageproduct} alt="imageproduct" className="  h-fit w-[70%]" />
 															</div>
 														</AlertDialogDescription>
 													</AlertDialogHeader>
