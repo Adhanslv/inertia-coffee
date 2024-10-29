@@ -3,7 +3,7 @@ import { ListMenuEspressoBased } from "./utils/espressobased";
 import { ListMenuFlavored } from "./utils/flavored";
 import { ListMenuNonCoffee } from "./utils/noncoffee";
 import Image from "next/image";
-import logoinertia from "@/app/assets/img/Logo/inertialogo.jpg";
+import logoinertia from "@/app/assets/img/Logo/logo.jpg";
 import {
 	AlertDialog,
 	AlertDialogAction,
